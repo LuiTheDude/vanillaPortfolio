@@ -4,22 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inika:wght@400;700&display=swap" rel="stylesheet">
     <title>Vite App</title>
   </head>
   <body>
     <div id="profile">
-      <h1>Louie Jangulashvili</h1>
-      <h2>Junior Frontend Developer</h2>
-      <img src="./public/githubProfPic.jpg" alt="picture">
+      <div id="headers">
+        <h1>Louie Jangulashvili</h1>
+        <h2>Junior Frontend Developer</h2>
+      </div>
+      <img src="./public/githubProfPic.jpg" alt="picture" id="profPic">
     </div>
     <div id="links">
-      <div id="projectsLink"></div>
-      <div id="blogLink"></div>
-      <div id="cvLink"></div>
-      <div id="socialLink"></div>
-      <div id="githubLink"></div>
+      <div id="projectsLink">My Projects 
+        <img src="./public/webTemplate.png" alt="website icon">
+      </div>
+      <div id="blogAndCvDiv">
+        <div id="blogLink">My Blog
+          <img src="./public/blogIcon.png" alt="blog icon">
+        </div>
+        <div id="cvLink">CV</div>
+      </div>
+      <div id="socialLink">Contacts
+        <img src="./public/contactIcons.png" alt="social media icons" id="socMedIcons">
+        <img src="./public/gmailIcon.png" alt="Gmail icon" id="gmailIcon">
+      </div>
+      <div id="githubLink">My Repositories:
+        <img src="./public/githubIcon.png" alt="Github icon">
+      </div>
     </div>
-    <div></div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

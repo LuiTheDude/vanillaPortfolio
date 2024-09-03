@@ -13,3 +13,119 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile{
+  display: flex;
+  flex-direction: row;
+}
+
+#profPic{
+  width: 300px;
+  height: 200px;
+  border-radius: 98px;
+}
+
+h1{
+  font-size: 55px;
+  font-family: inder;
+  color: #cccf00;
+  line-height: 60px;
+  width: 400px;
+}
+
+h2{
+  width: 300px;
+  line-height: auto;
+  font-family: inder;
+  font-size: 28px;
+}
+
+#links{
+  font-size: 40px;
+  font-family: inika;
+  position: relative;
+}
+
+#projectsLink, #blogLink, #cvLink, 
+#socialLink{
+  background-color: #3046B5;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  border-style: none;
+  margin: 10px 6px;
+  padding: 8px 30px;
+  position: relative;
+}
+
+#projectsLink{
+  width: 325px;
+}
+
+#projectsLink img{
+  width: 92px;
+  height: 52px;
+  position: absolute;
+  right: 30px;
+  top: 11px;
+}
+
+#blogLink{
+  width:  200px;
+  height: 60px;
+}
+
+#blogLink img{
+  display: inline;
+  width: 45px;
+  height: 37px;
+  position: absolute;
+  right: 18px;
+  top: 22px;
+}
+
+#blogAndCvDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+#socialLink {
+  padding: 10px 30px;
+  font-size: 42px;
+}
+
+#socMedIcons{
+  width: 245px;
+  height: 58px;
+  margin: 3px;
+}
+
+#gmailIcon{
+  width: 85px;
+  height:  58px;
+  margin: 3px;
+}
+
+#githubLink{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: #3046B5;
+  border-radius: 50px;
+  padding: 10px 30px;
+  width: 100px;
+  height: 160px;
+  right: 5px;
+  top: 5px;
+}
+
+#githubLink img{
+  width: 100px;
+  height: auto;
+}
