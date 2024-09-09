@@ -57,7 +57,7 @@ h2{
 
 #projectsLink, #blogLink, #cvLink, 
 #socialLink{
-  background-color: #3046B5;
+  background-color: hsl(230, 58%, 45%);
   display: flex;
   flex-direction: row;
   border-radius: 50px;
@@ -66,15 +66,16 @@ h2{
   padding: 8px 30px;
   position: relative;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 #projectsLink:hover, #blogLink:hover,
-#cvLink:hover, #socialLink:hover{
-  background-color: red;
+#cvLink:hover, #socialLink:hcover{
+  background-color: hsl(230, 58%, 25%);
 }
 
 #projectsLink{
-  width: 325px;
+  width: 335px;
 }
 
 #projectsLink img{
@@ -86,7 +87,7 @@ h2{
 }
 
 #blogLink{
-  width:  200px;
+  width:  210px;
   height: 60px;
 }
 
@@ -95,6 +96,7 @@ h2{
   width: 45px;
   height: 37px;
   position: absolute;
+
   right: 18px;
   top: 22px;
 }
@@ -106,6 +108,7 @@ h2{
 
 #socialLink {
   padding: 10px 30px;
+  padding-bottom: 0;
   font-size: 42px;
 }
 
@@ -133,9 +136,66 @@ h2{
   height: 160px;
   right: 5px;
   top: 5px;
+  cursor: pointer;
 }
 
 #githubLink img{
   width: 100px;
   height: auto;
+}
+
+a, a:visited, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white; /* or your desired link color */
+}
+
+.cornerSquare{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  z-index: 1000;
+  position: absolute;
+}
+
+#square1{
+  top: 0;
+  left: 0;
+}
+#square2{
+  top: 0;
+  right: 0;
+}
+#square3{
+  bottom: 0;
+  left: 0;
+}
+#square4{
+  bottom: 0;
+  right: 0;
+}
+
+.cornerCircle{
+  background-color: #252525;
+  width: 400px;
+  height: 400px;
+  z-index: 1001;
+  border-radius: 200px;
+  position: absolute;
+}
+
+#circle1{
+  top: 0px;
+  left: 0px;
+}
+#circle2{
+  top: 0px;
+  right: 0px;
+}
+#circle3{
+  bottom: 0px;
+  left: 0px;
+}
+#circle4{
+  bottom: 0px;
+  right: 0px;
 }
