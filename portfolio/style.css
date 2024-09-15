@@ -69,9 +69,10 @@ h2{
   cursor: pointer;
 }
 
-#projectsLink:hover, #blogLink:hover,
-#cvLink:hover, #socialLink:hcover{
-  background-color: hsl(230, 58%, 25%);
+#blogLink:hover, #projectsLink:hover,
+#cvLink:hover, #socialLink:hover, #githubLink:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 40px;
 }
 
 #projectsLink{
@@ -129,7 +130,7 @@ h2{
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  background-color: #3046B5;
+  background-color: hsl(230, 58%, 45%);
   border-radius: 50px;
   padding: 10px 30px;
   width: 100px;
@@ -137,6 +138,7 @@ h2{
   right: 5px;
   top: 5px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 #githubLink img{
