@@ -151,6 +151,46 @@ a, a:visited, a:hover, a:focus, a:active {
   color: white; /* or your desired link color */
 }
 
+#toolsDiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#toolsDiv img{
+  margin: 10px;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px 8px 6px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: Roboto, Arial;
+}
+
+#htmlIcon:hover #htmlTooptip,
+#cssIcon:hover #cssTooptip,
+#jsIcon:hover #jsTooptip,
+#mongoIcon:hover #mongoTooptip,
+#expressIcon:hover #expressTooptip,
+#reactIcon:hover #reactTooptip,
+#nodeIcon:hover #nodeTooptip {
+  opacity: 1;
+}
+
 .cornerSquare{
   background-color: white;
   width: 200px;
