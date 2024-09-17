@@ -17,7 +17,6 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 #profile{
@@ -42,6 +41,7 @@ h1{
   width: 400px;
   margin-left: 85px;
 }
+
 h2{
   width: 300px;
   line-height: auto;
@@ -166,14 +166,25 @@ a, a:visited, a:hover, a:focus, a:active {
   position: relative;
 }
 
+#htmlIconDiv,
+#cssIconDiv,
+#jsIconDiv,
+#mongoIconDiv,
+#expressIconDiv,
+#reactIconDiv,
+#nodeIconDiv {
+  position: relative;
+}
+
 .tooltip{
   position: absolute;
-  background-color: gray;
+  background-color: hsl(230, 58%, 45%);
   color: white;
   padding: 6px 8px 6px 8px;
-  border-radius: 2px;
+  border-radius: 20px;
   font-size: 12px;
   bottom: -30px;
+  left: 20px;
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none;
@@ -181,13 +192,13 @@ a, a:visited, a:hover, a:focus, a:active {
   font-family: Roboto, Arial;
 }
 
-#htmlIcon:hover #htmlTooptip,
-#cssIcon:hover #cssTooptip,
-#jsIcon:hover #jsTooptip,
-#mongoIcon:hover #mongoTooptip,
-#expressIcon:hover #expressTooptip,
-#reactIcon:hover #reactTooptip,
-#nodeIcon:hover #nodeTooptip {
+#htmlIconDiv:hover #htmlTooltip,
+#cssIconDiv:hover #cssTooltip,
+#jsIconDiv:hover #jsTooltip,
+#mongoIconDiv:hover #mongoTooltip,
+#expressIconDiv:hover #expressTooltip,
+#reactIconDiv:hover #reactTooltip,
+#nodeIconDiv:hover #nodeTooltip {
   opacity: 1;
 }
 
