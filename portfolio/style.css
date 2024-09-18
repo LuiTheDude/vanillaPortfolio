@@ -23,6 +23,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  z-index: 1000;
 }
 
 #profPic{
@@ -31,6 +32,7 @@ body{
   border-radius: 98px;
   margin-left: 15px;
   margin-bottom: 80px;
+  z-index: 1000;
 }
 
 h1{
@@ -40,6 +42,7 @@ h1{
   line-height: 60px;
   width: 400px;
   margin-left: 85px;
+  z-index: 1000;
 }
 
 h2{
@@ -48,6 +51,7 @@ h2{
   font-family: inder;
   font-size: 28px;
   margin-left: 85px;
+  z-index: 1000;
 }
 #links{
   font-size: 40px;
@@ -67,6 +71,7 @@ h2{
   position: relative;
   transition: all 0.3s;
   cursor: pointer;
+  z-index: 1000;
 }
 
 #blogLink:hover, #projectsLink:hover,
@@ -97,7 +102,6 @@ h2{
   width: 45px;
   height: 37px;
   position: absolute;
-
   right: 18px;
   top: 22px;
 }
@@ -114,27 +118,27 @@ h2{
 }
 
 #facebookIcon{
-  width: 85px;
-  height:  58px;
-  margin: 3px;
+  width: 65px;
+  height: auto;
+  margin: 0 7px;
 }
 
 #instagramIcon{
-  width: 85px;
-  height:  58px;
-  margin: 3px;
+  width: 65px;
+  height: auto;
+  margin: 0 7px;
 }
 
 #xIcon{
-  width: 85px;
-  height:  58px;
-  margin: 3px;
+  width: 65px;
+  height: auto;
+  margin: 0 7px;
 }
 
 #gmailIcon{
-  width: 85px;
-  height:  58px;
-  margin: 3px;
+  width: 65px;
+  height: auto;
+  margin: 0 7px;
 }
 
 #githubLink{
@@ -151,6 +155,7 @@ h2{
   top: 5px;
   cursor: pointer;
   transition: all 0.3s;
+  z-index: 1000;
 }
 
 #githubLink img{
@@ -202,6 +207,7 @@ a, a:visited, a:hover, a:focus, a:active {
   pointer-events: none;
   white-space: nowrap;
   font-family: Roboto, Arial;
+  z-index: 1000;
 }
 
 #htmlIconDiv:hover #htmlTooltip,
