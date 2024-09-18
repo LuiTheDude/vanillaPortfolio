@@ -113,9 +113,21 @@ h2{
   font-size: 42px;
 }
 
-#socMedIcons{
-  width: 245px;
-  height: 58px;
+#facebookIcon{
+  width: 85px;
+  height:  58px;
+  margin: 3px;
+}
+
+#instagramIcon{
+  width: 85px;
+  height:  58px;
+  margin: 3px;
+}
+
+#xIcon{
+  width: 85px;
+  height:  58px;
   margin: 3px;
 }
 
