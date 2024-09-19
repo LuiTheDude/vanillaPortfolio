@@ -53,6 +53,9 @@ h2{
   margin-left: 85px;
   z-index: 1000;
 }
+
+/* page links */
+
 #links{
   font-size: 40px;
   font-family: inika;
@@ -123,7 +126,7 @@ h2{
   margin: 0 7px;
 }
 
-#instagramIcon{
+#linkedinIcon{
   width: 65px;
   height: auto;
   margin: 0 7px;
@@ -168,6 +171,8 @@ a, a:visited, a:hover, a:focus, a:active {
   color: white; /* or your desired link color */
 }
 
+/* tool icons */
+
 #toolsDiv{
   display: flex;
   flex-direction: row;
@@ -181,6 +186,7 @@ a, a:visited, a:hover, a:focus, a:active {
   width: 100px;
   cursor: pointer;
   position: relative;
+  z-index: 1001;
 }
 
 #htmlIconDiv,
@@ -220,11 +226,13 @@ a, a:visited, a:hover, a:focus, a:active {
   opacity: 1;
 }
 
+/* corner decorations */
+
 .cornerSquare{
   background-color: white;
   width: 200px;
   height: 200px;
-  z-index: 1000;
+  z-index: 100;
   position: absolute;
 }
 
@@ -249,7 +257,7 @@ a, a:visited, a:hover, a:focus, a:active {
   background-color: #252525;
   width: 400px;
   height: 400px;
-  z-index: 1001;
+  z-index: 101;
   border-radius: 200px;
   position: absolute;
 }
