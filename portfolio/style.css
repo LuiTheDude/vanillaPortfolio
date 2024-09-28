@@ -234,6 +234,7 @@ a, a:visited, a:hover, a:focus, a:active {
   height: 200px;
   z-index: 100;
   position: absolute;
+  position: fixed;
 }
 
 #square1{
@@ -260,6 +261,7 @@ a, a:visited, a:hover, a:focus, a:active {
   z-index: 101;
   border-radius: 200px;
   position: absolute;
+  position: fixed;
 }
 
 #circle1{
