@@ -4,8 +4,10 @@ main{
 }
 
 h1{
+    margin: 40px 0 40px 0;
     font-size: 80px;
     width: 540px;
+    text-align: center;
 }
 
 .contactsContainer{
@@ -24,4 +26,19 @@ img{
     height: auto;
     margin: 0 20px;
     position: relative;
+}
+
+a{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 10px;
+    box-shadow: 0 0 50px;
+    transition: 0.1s;
+}
+
+a:hover{
+    box-shadow: 0 0 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
